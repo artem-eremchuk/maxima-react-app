@@ -1,10 +1,13 @@
+import Header from './components/Header/Header';
+import Counter from './components/Counter/Counter';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Maxima React App</h1>
-    </div>
+    <>
+      <Header title="Counter" />
+      <Counter />
+    </>
   );
 }
 
