@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './Header.css';
 
 function Header({ title }) {
@@ -13,6 +14,14 @@ function Header({ title }) {
       </div>
     </header>
   )
+}
+
+Header.defaultProps = {
+  title: 'Maxima React App',
+}
+
+Header.propType = {
+  title: PropTypes.string,
 }
 
 export default Header;

@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './Button.css';
 
 function Button(props) {
@@ -12,6 +13,16 @@ function Button(props) {
       {content}
     </button>
   )
+}
+
+Button.defaultProps = {
+  content: 'click',
+  handlerClick: () => {},
+}
+
+Button.propType = {
+  content: PropTypes.string,
+  handlerClick: PropTypes.func,
 }
 
 export default Button;
