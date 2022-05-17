@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/maxima-react-app/static/css/main.9c53231a.css",
+    "main.css": "/maxima-react-app/static/css/main.7a742617.css",
     "main.js": "/maxima-react-app/static/js/main.b758b22d.js",
     "index.html": "/maxima-react-app/index.html",
-    "main.9c53231a.css.map": "/maxima-react-app/static/css/main.9c53231a.css.map",
+    "main.7a742617.css.map": "/maxima-react-app/static/css/main.7a742617.css.map",
     "main.b758b22d.js.map": "/maxima-react-app/static/js/main.b758b22d.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c53231a.css",
+    "static/css/main.7a742617.css",
     "static/js/main.b758b22d.js"
   ]
 }
